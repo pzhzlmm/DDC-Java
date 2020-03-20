@@ -22,7 +22,6 @@ public class _2testFileWriter {
             //1.创建file对象
             File file = new File("info.txt");//文件可以不存在
 
-
             //2.创建输出流
             fileWriter = new FileWriter(file);
             new FileWriter(file,false);
