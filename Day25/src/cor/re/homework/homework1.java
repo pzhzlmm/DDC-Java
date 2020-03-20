@@ -1,4 +1,4 @@
-package homework;
+package cor.re.homework;
 
 import java.util.ArrayList;
 import java.util.HashMap;
