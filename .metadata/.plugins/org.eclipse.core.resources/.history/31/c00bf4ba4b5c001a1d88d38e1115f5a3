@@ -1,0 +1,20 @@
+/**  
+ * @Title:  WrapperTest.java   
+ * @Package ex2   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月2日 上午10:54:46   
+ * @version V1.0 
+ */ 
+package ex2;
+
+/**   
+ * @ClassName:  WrapperTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月2日 上午10:54:46   
+ *     
+ */
+public class WrapperTest {
+
+}

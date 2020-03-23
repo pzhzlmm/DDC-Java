@@ -1,0 +1,31 @@
+package com.atguigu.day.ex12;
+/**  
+ * All rights Reserved, Designed By www.tydic.com
+ * @Title:  ExtendsTest.java   
+ * @Package    
+ * @Description:    TODO(用一句话描述该文件做什么)   
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 上午11:28:31   
+ * @version V1.0 
+ */
+
+/**   
+ * @ClassName:  ExtendsTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月28日 上午11:28:31   
+ *     
+ */
+public class ExtendsTest {
+	public static void main(String[] args) {
+		Person p1 = new Person("小红",17);
+		p1.eat();
+		p1.walk();
+		
+		Student s = new Student("小资",23,"计算机");
+		 s.study();
+		 s.walk();
+		 s.eat();
+		 s.breath();
+	}
+}

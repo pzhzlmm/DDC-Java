@@ -1,0 +1,63 @@
+/**  
+ * @Title:  OuterClass.java   
+ * @Package ex4   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月4日 下午3:40:25   
+ * @version V1.0 
+ */ 
+package ex4;
+
+/**   
+ * @ClassName:  OuterClass   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月4日 下午3:40:25   
+ *     
+ */
+public class OuterClass {
+	public static void main(String[] args) {
+		//创建静态成员内部类的对象
+		Person.Dog dog = new Person.Dog();
+		dog.shout();
+		//创建非静态的成员内部类的对象
+		//非静态得有对象才能创建
+		Person p1 = new Person();
+		Person.Bird bird = p1.new Bird();
+	}
+}
+class Person{
+	//成员内部类
+	//可定义属性方法,构造器,代码块,内部类等
+	//可被abstract修饰,表示其不能实例化
+	//还可以被final修饰,表示不能被继承
+	//可以被四种权限修饰符,static修饰
+	//可调用外部类的属性和方法
+	String name;
+	int age;
+	static class Dog{
+		public void shout(){
+			System.out.println("wangwang");
+		}
+	}
+	
+	class Bird{
+		public void shout(){
+			System.out.println("niaoer");
+		}
+	}
+	
+	public void show(){
+		System.out.println(name);
+	}
+	
+	public void method(){
+		class A{}
+	}
+	{
+		class B{}
+	}
+	public Person(){
+		class C{}
+	}
+}

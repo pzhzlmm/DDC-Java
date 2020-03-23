@@ -1,0 +1,22 @@
+/**  
+ * All rights Reserved, Designed By www.tydic.com
+ * @Title:  ExtendsTest.java   
+ * @Package    
+ * @Description:    TODO(用一句话描述该文件做什么)   
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 上午11:28:31   
+ * @version V1.0 
+ */
+
+/**   
+ * @ClassName:  ExtendsTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月28日 上午11:28:31   
+ *     
+ */
+public class ExtendsTest {
+	public static void main(String[] args) {
+		Person p1 = new Person()l
+	}
+}

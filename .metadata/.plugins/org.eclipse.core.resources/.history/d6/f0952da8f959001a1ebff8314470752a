@@ -1,0 +1,62 @@
+/**  
+ * All rights Reserved, Designed By www.tydic.com
+ * @Title:  ManKind.java   
+ * @Package com.atguigu.ex.ex2   
+ * @Description:    TODO(用一句话描述该文件做什么)   
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 下午3:02:08   
+ * @version V1.0 
+ */
+package com.atguigu.ex.ex2;
+
+/**
+ * @ClassName: ManKind
+ * @Description:TODO
+ * @author: XinLan Wang
+ * @date: 2020年2月28日 下午3:02:08 
+ * (1)定义一个ManKind类，包括 成员变量int sex和int salary； 
+ * 方法voidmanOrWoman()：根据sex的值显示“man”(sex==1)或者“woman”(sex==0)； 
+ * 方法voidemployeed()：根据salary的值显示“no job”(salary==0)或者“ job”(salary!=0)。
+ * (2)定义类Kids继承ManKind，并包括 成员变量int yearsOld； 方法printAge()打印yearsOld的值。
+ * (3)定义类KidsTest，在类的main方法中实例化Kids的对象someKid，用该对象访问其父类的成员变量及方法。
+ * 
+ */
+public class ManKind {
+	int sex;
+	int salary;
+
+	/**   
+	 * @Title: manOrWoman   
+	 * @Description: TODO   
+	 * 	根据sex的值显示“man”(sex==1)或者“woman”(sex==0)； 
+	 * @param:       
+	 * @return: void      
+	 * @throws   
+	 */  
+	void manOrWoman(){
+		if(sex == 1){
+			System.out.println("man");
+		}else if(sex == 0){
+			System.out.println("woman");
+		}else{
+			System.out.println("???");
+		}
+	};
+	
+	/**   
+	 * @Title: employeed   
+	 * @Description: TODO 
+	 * 方法voidemployeed()：
+	 * 根据salary的值显示“no job”(salary==0)或者“ job”(salary!=0)。  
+	 * @param:       
+	 * @return: void      
+	 * @throws   
+	 */  
+	void employeed(){
+		if(salary == 0){
+			System.out.println("no job");
+		}else{
+			System.out.println("job");
+		}
+	}
+}

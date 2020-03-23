@@ -1,0 +1,20 @@
+/**  
+ * @Title:  InterfaceTest.java   
+ * @Package ex2   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月4日 下午2:06:57   
+ * @version V1.0 
+ */ 
+package ex2;
+
+/**   
+ * @ClassName:  InterfaceTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月4日 下午2:06:57   
+ *     
+ */
+public class InterfaceTest {
+
+}

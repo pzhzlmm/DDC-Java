@@ -1,0 +1,44 @@
+/**  
+ * @Title:  FieldMethodTest.java   
+ * @Package    
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 下午10:00:18   
+ * @version V1.0 
+ */
+
+/**   
+ * @ClassName:  FieldMethodTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 下午10:00:18   
+ *     
+ */
+public class FieldMethodTest {
+
+	public static void main(String[] args) {
+		Base base = new Sub();
+		base.add(1, 2, 3);
+
+//		Sub s = (Sub)base;
+//		s.add(1,2,3);
+	}
+}
+
+class Base {
+	public void add(int a, int... arr) {
+		System.out.println("base");
+	}
+}
+
+class Sub extends Base {
+
+	public void add(int a, int[] arr) {
+		System.out.println("sub_1");
+	}
+
+//	public void add(int a, int b, int c) {
+//		System.out.println("sub_2");
+//	}
+
+}

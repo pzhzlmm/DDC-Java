@@ -1,0 +1,20 @@
+/**  
+ * @Title:  EqualsTest.java   
+ * @Package com.atguigu.ex3   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 下午9:15:33   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex3;
+
+/**   
+ * @ClassName:  EqualsTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 下午9:15:33   
+ *     
+ */
+public class EqualsTest {
+
+}

@@ -1,0 +1,23 @@
+/**  
+ * @Title:  JunitTst.java   
+ * @Package ex2   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月2日 上午10:38:54   
+ * @version V1.0 
+ */ 
+package ex2;
+
+/**   
+ * @ClassName:  JunitTst   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月2日 上午10:38:54   
+ *     
+ */
+public class JunitTst {
+	@test
+	public void test1(){
+		System.out.println("gekk");
+	}
+}

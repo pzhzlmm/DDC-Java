@@ -1,0 +1,25 @@
+/**  
+ * @Title:  SocreTest.java   
+ * @Package ex4   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月2日 下午2:18:45   
+ * @version V1.0 
+ */ 
+package ex4;
+
+/**   
+ * @ClassName:  SocreTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月2日 下午2:18:45   
+ *     
+ */
+public class SocreTest {
+	public static void main(String[] args) {
+		
+	}
+	public void test(){
+		
+	}
+}

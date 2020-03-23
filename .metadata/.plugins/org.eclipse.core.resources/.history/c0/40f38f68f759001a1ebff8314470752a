@@ -1,0 +1,21 @@
+/**  
+ * All rights Reserved, Designed By www.tydic.com
+ * @Title:  Person.java   
+ * @Package com.atguigu.ex.ex1   
+ * @Description:    TODO(用一句话描述该文件做什么)   
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 下午2:55:20   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex.ex1;
+
+/**   
+ * @ClassName:  Person   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月28日 下午2:55:20   
+ *     
+ */
+public class Person {
+
+}

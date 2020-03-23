@@ -1,0 +1,33 @@
+/**  
+ * @Title:  ComparableCircle.java   
+ * @Package ex3   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月4日 下午3:04:06   
+ * @version V1.0 
+ */ 
+package ex3;
+
+/**   
+ * @ClassName:  ComparableCircle   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月4日 下午3:04:06   
+ *     
+ */
+public class ComparableCircle extends Circle implements CompareObject{
+
+	/* (non-Javadoc)
+	 * @see ex3.CompareObject#compareTo(java.lang.Object)
+	 */
+	@Override
+	public int compareTo(Object o) {
+	// TODO Auto-generated method stub
+//		if(o instanceof Circle){
+//			Circle ocir = (Circle)o;
+//			return (int)(ocir.getRedius());
+//		}
+		return 1;
+	}
+
+}

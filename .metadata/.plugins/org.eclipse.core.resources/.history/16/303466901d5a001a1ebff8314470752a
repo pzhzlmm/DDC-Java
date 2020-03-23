@@ -1,0 +1,20 @@
+/**  
+ * @Title:  Customer.java   
+ * @Package com.atguigu.eve.ex2   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 下午7:27:48   
+ * @version V1.0 
+ */ 
+package com.atguigu.eve.ex2;
+
+/**   
+ * @ClassName:  Customer   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月28日 下午7:27:48   
+ *     
+ */
+public class Customer {
+
+}

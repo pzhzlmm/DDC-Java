@@ -1,0 +1,26 @@
+/**  
+ * @Title:  PersonTest.java   
+ * @Package com.atguigu.ex5   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 上午11:04:16   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex5;
+
+/**   
+ * @ClassName:  PersonTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 上午11:04:16   
+ *     
+ */
+public class PersonTest {
+	public static void main(String[] args) {
+		Person p1 = new Person();
+		Man m1 = new Man();
+		
+		//duotai
+		Person p2 = new Man();
+	}
+}

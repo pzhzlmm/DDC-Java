@@ -1,0 +1,36 @@
+/**  
+ * @Title:  InterfaceTest.java   
+ * @Package ex1   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月4日 上午10:36:31   
+ * @version V1.0 
+ */ 
+package ex1;
+
+/**   
+ * @ClassName:  InterfaceTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月4日 上午10:36:31   
+ *     
+ */
+public class InterfaceTest {
+	public static void main(String[] args) {
+		System.out.println(Flyable.MAX_SPEED);
+//		Flyable.MAX_SPEED = 1000;
+//		The final field Flyable.MAX_SPEED cannot be assigned
+		
+		
+	}
+}
+
+interface Flyable{
+	public static final int MIN_SPEED = 1;
+	int MAX_SPEED = 7900;
+	
+}
+
+interface Attackable{
+	
+}

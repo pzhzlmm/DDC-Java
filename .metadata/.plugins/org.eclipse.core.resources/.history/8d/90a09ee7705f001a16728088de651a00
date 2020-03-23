@@ -1,0 +1,159 @@
+package ex2;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.junit.Test;
+
+/*
+ * 异常处理�?
+ * 
+ * �?、Java中异常处理有两种方式�?
+ * 	1.try-catch-finally
+ * 	2.throws的方�?
+ * 
+ * 二�?? Java提供的是异常处理的抓抛模型�??
+ * 
+ *  过程�?�?"�?"
+ *  	> 在程序执行过程中，一旦出现异常，就会在出现异常代码的位置生成�?个相应异常类的对象，并将此对�?
+ *      向上抛出�?
+ *      
+ *      > 异常对象�?旦向上抛出，代码就不再继续向下执行�??
+ *  
+ *  过程二："�?"
+ * 		> 可以理解为异常对象的处理过程�?
+ * 		> 狭义上，理解为捕获异常，即为try-catch-finally的处理方法�??
+ * 		> 广义上，理解为异常处理的两种方式：try-catch-finally �? throws
+ * 
+ * 三�?�异常处理方式一：try-catch-finally的使�?
+ * 
+ * try{
+ * 		//可能出现异常的代�?
+ * 
+ * }catch(异常的类�?1 变量�?1){
+ * 		//异常的处理方�?1
+ * }catch(异常的类�?2 变量�?2){
+ * 		//异常的处理方�?2
+ * }...
+ * 
+ * finally{
+ * 		//�?定会被执行的代码
+ * }
+ * 
+ * 说明�?
+ * 1. finally结构是可选的�?
+ * 2. 将可能出现异常的代码，使用try进行包裹，执行过程中，一旦生成异常对象，就将此对象抛出�?�在其后的catch中进行类型的匹配
+ * 3. �?旦异常对象与相应的某个catch中的异常类型匹配，则进入catch结构执行异常处理的操作�?�一旦执行完异常处理的操作后，直接跳�?
+ * 当前的try-catch结构。并执行其后的代�?
+ * 4. 常见的异常处理的方式�?
+ * 		�? 自定义输出的信息  �? 打印异常对象的message信息：getMessage()  �? printStackTrace()
+ * 
+ * 5. 多个catch中的异常类型没有子父类关系，则谁先声明，谁后声明无所�?
+ *    如果多个catch中的异常类型有子父类关系，则必须将子类异常声明在父类异常之前。否则报错�??
+ * 
+ * 6. 在try中声明的变量，在出了try结构以后，不可被调用
+ * 
+ * 
+ * 体会�?
+ * 1. 编译时异常一定要进行处理的， 否则编译不�?�过。如果在运行时没有出现异常，那就正常执行。如果出现异常，就按照异常处理的方案进行
+ *   异常的处理�?? ----> 使用异常处理的方式，相当于将�?个编译时异常转换为了�?个运行时可能出现的异常�??
+ * 2. �?发中，对于运行时异常，一般咱们都不会编写针对性的代码进行处理�?
+ * 
+ * 练习：针对相应功能的代码，使用try-catch进行处理�?
+ */
+public class ExceptionHandleTest1 {
+	@Test
+	public void test1(){
+		String str1 = "atguigu.com";
+		str1 = null;
+		System.out.println(str1.charAt(0));
+		System.out.println("hello");//执行不到�?
+	}
+	
+	@Test
+	public void test2(){
+		try{
+			String str1 = "atguigu.com";
+			str1 = null;
+			System.out.println(str1.charAt(0));
+		}catch(NullPointerException e){
+			//异常的处理方�?1
+			System.out.println("不好意�?�，亲~出现了小问题，正在加紧解�?...");
+			
+		}catch(ClassCastException e){
+			//异常的处理方�?2
+			System.out.println("出现了类型转换的异常");
+		}catch(RuntimeException e){
+			//异常的处理方�?3
+			System.out.println("出现了运行时异常");
+		}
+		//此处的代码，在异常被处理了以后，是可以正常执行的
+		System.out.println("hello");
+	}
+	
+	@Test
+	public void test3(){
+		String str1 = null;
+		try{
+			str1 = "atguigu.com";
+			str1 = null;
+			System.out.println(str1.charAt(0));
+		}catch(ClassCastException e){
+			e.printStackTrace();
+		}catch(NullPointerException e){
+			System.out.println(e.getMessage());
+//			e.printStackTrace();
+		}catch(RuntimeException e){
+			e.printStackTrace();
+		}
+		
+		System.out.println(str1);
+	}
+	
+	@Test
+	public void test4(){
+		try{
+			int i = 10;
+			int j = 0;
+			System.out.println(i / j);
+			
+		}catch(ArithmeticException e){
+			System.out.println(e.getMessage());//   / by zero
+		}
+	}
+	
+	@Test
+	public void test5(){
+		try{
+			int[] arr = new int[10];
+			System.out.println(arr[10]);
+			
+		}catch(ArrayIndexOutOfBoundsException e){
+//			System.out.println(e.getMessage());// 10
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	public void test6(){
+		try{
+			File file = new File("hello.txt");
+			FileInputStream fis = new FileInputStream(file);//FileNotFoundException
+			int b = fis.read();//IOException
+			while(b != -1){
+				System.out.print((char)b);
+				b = fis.read();//IOException
+			}
+			
+			fis.close();//IOException
+			
+		}catch(FileNotFoundException e){
+			e.printStackTrace();
+//			System.out.println("出现了文件找不到的异�?");
+		}catch(IOException e){
+			e.printStackTrace();
+		}
+	}
+}

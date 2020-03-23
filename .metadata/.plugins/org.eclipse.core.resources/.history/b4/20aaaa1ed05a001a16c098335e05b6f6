@@ -1,0 +1,65 @@
+/**  
+ * @Title:  Person.java   
+ * @Package com.atguigu.ex6   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 下午2:44:30   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex8;
+
+/**   
+ * @ClassName:  Person   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 下午2:44:30   
+ *     
+ */
+public class User {
+	protected String name="person";
+	protected int age=50;
+	public String getInfo() {
+	          return "Name: "+ name + "\n" +"age: "+ age;
+	}
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+	/**
+	 * @return the age
+	 */
+	public int getAge() {
+		return age;
+	}
+	/**
+	 * @param age the age to set
+	 */
+	public void setAge(int age) {
+		this.age = age;
+	}
+	/**
+	 * @param name
+	 * @param age
+	 */
+	public User(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	
+	public boolean equals(Object obj) {
+		if (this == obj) {
+            return true;
+        }else if{
+        	
+        }
+    }
+}

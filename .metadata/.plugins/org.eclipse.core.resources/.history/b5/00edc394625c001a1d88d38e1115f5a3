@@ -1,0 +1,24 @@
+/**  
+ * @Title:  SingletonTest1.java   
+ * @Package ex6   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月2日 下午4:47:18   
+ * @version V1.0 
+ */ 
+package ex6;
+
+/**   
+ * @ClassName:  SingletonTest1   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月2日 下午4:47:18   
+ *     
+ */
+public class SingletonTest1 {
+	
+}
+class School{
+	private School(){}
+	private static School = null;
+}

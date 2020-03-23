@@ -1,0 +1,39 @@
+/**  
+ * @Title:  ObjectTest.java   
+ * @Package com.atguigu.ex8   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 下午3:53:00   
+ * @version V1.0 
+ */
+package com.atguigu.ex8;
+
+/**
+ * @ClassName: ObjectTest
+ * @Description:TODO
+ * @author: XinLan Wang
+ * @date: 2020年2月29日 下午3:53:00
+ * 
+ */
+public class ObjectTest {
+	public static void main(String[] args) {
+		int i = 10;
+		int j = 10;
+		System.out.println(i == j);
+
+		char c = 'A';
+		int k = 65;
+		System.out.println(c == k);
+		
+		float d = 1.34f;
+		int m = 54;
+		System.out.println(d == m);//true
+		
+		User u1 = new User("xiaoghong",12);
+		User u2 = new User("xiaoghong",12);
+		System.out.println(u1 == u2);
+		
+		
+
+	}
+}

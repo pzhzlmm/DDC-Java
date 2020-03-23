@@ -1,0 +1,20 @@
+/**  
+ * @Title:  ObjectTest.java   
+ * @Package com.atguigu.ex8   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 下午3:53:00   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex8;
+
+/**   
+ * @ClassName:  ObjectTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 下午3:53:00   
+ *     
+ */
+public class ObjectTest {
+
+}

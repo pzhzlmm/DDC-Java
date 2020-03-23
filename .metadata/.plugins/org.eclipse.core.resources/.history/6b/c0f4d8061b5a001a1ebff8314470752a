@@ -1,0 +1,20 @@
+/**  
+ * @Title:  TriAngle.java   
+ * @Package com.atguigu.eve.ex1   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 下午7:10:46   
+ * @version V1.0 
+ */ 
+package com.atguigu.eve.ex1;
+
+/**   
+ * @ClassName:  TriAngle   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月28日 下午7:10:46   
+ *     
+ */
+public class TriAngle {
+
+}

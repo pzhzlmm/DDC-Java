@@ -1,0 +1,32 @@
+/**  
+ * @Title:  PersonTest.java   
+ * @Package com.atguigu.ex5   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 上午11:04:16   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex5;
+
+/**   
+ * @ClassName:  PersonTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 上午11:04:16   
+ *     
+ */
+public class PersonTest {
+	public static void main(String[] args) {
+		Person p1 = new Person();
+		Man m1 = new Man();
+		
+		//多态性:父类引用指向子类对象
+		Person p2 = new Man();//编译看左，运行看右
+		
+		p2.eat();//男人吃饭
+		p2.walk();//男人散步
+		m1.earnMoney();
+//		p2.earnMoney();
+//		The method earnMoney() is undefined for the type Person
+	}
+}

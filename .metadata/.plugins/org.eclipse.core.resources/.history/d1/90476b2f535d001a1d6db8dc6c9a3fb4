@@ -1,0 +1,58 @@
+package com.atguigu.exer2;
+
+/*
+ * 定义一个测试类GeometricTest，编写equalsArea方法测试两个对象的面积是否相等（注意方法的参数类型，利用动态绑定技术），
+ * 编写displayGeometricObject方法显示对象的面积（注意方法的参数类型，利用动态绑定技术）。
+ */
+
+/**
+ * 
+ * 
+ * @ClassName:displayGeometricObjec
+ * @Description:
+ * @Author:Leon
+ * @Date:2020/2/29 15:25
+ **/
+public class GeometricTest {
+    public static void main(String[] args) {
+    	GeometricTest test = new GeometricTest();
+    	MyRectangle r1 = new MyRectangle(2.3, 3.4, "white", 1.0);
+    	MyRectangle r2 = new MyRectangle(3.4, 2.3, "white", 1.0);
+    	
+    	test.displayGeometricObject(r1);
+    	test.displayGeometricObject(r2);
+    	
+    	test.equalsArea(r1, r2);
+    	
+    }
+    
+    /**
+     * 
+     * @Description 比较两个几何图形的面积是否相等
+     * @author shkstart
+     * @date 2020年2月29日下午3:44:43
+     * @param g1
+     * @param g2
+     */
+    public void equalsArea(GeometricObject g1,GeometricObject g2){
+//        if (g1.findArea() == g2.findArea()){
+//            System.out.println("两个几何图形的面积相等");
+//        }else {
+//            System.out.println("两个几何图形的面积不相等");
+//        }
+    	
+    	String str = (g1.findArea() == g2.findArea())? "两个几何图形的面积相等":"两个几何图形的面积不相等";
+    	System.out.println(str);
+    }
+
+    /**
+     * 
+     * @Description 返回几何图形的面积
+     * @author shkstart
+     * @date 2020年2月29日下午3:45:29
+     * @param g
+     */
+    public void displayGeometricObject(GeometricObject g){
+        System.out.println(g.findArea());
+    }
+}

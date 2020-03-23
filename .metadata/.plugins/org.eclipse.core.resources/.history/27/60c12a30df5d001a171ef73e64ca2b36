@@ -1,0 +1,25 @@
+/**  
+ * @Title:  SubClass.java   
+ * @Package ex2   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月4日 下午2:08:34   
+ * @version V1.0 
+ */ 
+package ex2;
+
+/**   
+ * @ClassName:  SubClass   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月4日 下午2:08:34   
+ *     
+ */
+public class SubClass implements CompareA{
+	
+	//default要删掉
+	public  void method2(){
+		System.out.println("shanghai");
+	}
+	
+}

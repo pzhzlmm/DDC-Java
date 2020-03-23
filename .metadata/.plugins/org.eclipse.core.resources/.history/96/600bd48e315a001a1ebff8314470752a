@@ -1,0 +1,31 @@
+/**  
+ * @Title:  Test3.java   
+ * @Package com.atguigu.ex4   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 下午9:06:45   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex4;
+
+/**   
+ * @ClassName:  Test3   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月28日 下午9:06:45   
+ *     
+ */
+public class Test3 {
+    public static void main(String[] args) {
+        Father f = new Father();
+        Son s = new Son();
+        System.out.println(f.getInfo());//atguigu
+        System.out.println(s.getInfo());//atguigu
+        s.test();//atguigu atguigu
+        System.out.println("-----------------");
+        s.setInfo("大硅谷");
+        System.out.println(f.getInfo());
+        System.out.println(s.getInfo());
+        s.test();
+    }
+}

@@ -1,0 +1,61 @@
+package com.atguigu.exer;
+
+
+public class Account{
+	
+	private int id;
+	private String passWord = "123456";
+	private double balance;
+	
+	private static int init = 1001;
+	private static double annualInterestRate = 0.015;
+	private static double minBalance = 100;
+	
+	public Account() {
+		id = init++;
+	}
+
+	public Account(String passWord,double balance) {
+		this();
+		this.passWord = passWord;
+		this.balance = balance;
+	}
+
+	public String getPassWord() {
+		return passWord;
+	}
+
+	public void setPassWord(String passWord) {
+		this.passWord = passWord;
+	}
+
+	public static double getAnnualInterestRate() {
+		return annualInterestRate;
+	}
+
+	public static void setAnnualInterestRate(double annualInterestRate) {
+		Account.annualInterestRate = annualInterestRate;
+	}
+
+	public static double getMinBalance() {
+		return minBalance;
+	}
+
+	public static void setMinBalance(double minBalance) {
+		Account.minBalance = minBalance;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	@Override
+	public String toString() {
+		return "BankAccount [id=" + id + ", passWord=" + passWord + ", balance=" + balance + "]";
+	}	
+	
+}

@@ -1,0 +1,43 @@
+/**  
+ * @Title:  StaticTest.java   
+ * @Package ex5   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月2日 下午2:50:25   
+ * @version V1.0 
+ */ 
+package ex5;
+
+/**   
+ * @ClassName:  StaticTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月2日 下午2:50:25   
+ *     
+ */
+public class StaticTest {
+	public static void main(String[] args) {
+		Chinese c1 = new Chinese();
+		c1.name = "成龙";
+		c1.age = 60;
+		
+		Chinese c2 = new Chinese();
+		c2.name = "周杰伦";
+		c2.age = 33;
+		
+	}
+}
+	class Chinese{
+		String name;
+		int age;
+		
+		/* (non-Javadoc)
+		 * @see java.lang.Object#toString()
+		 */
+		@Override
+		public String toString() {
+			return "Chinese [name=" + name + ", age=" + age + "]";
+		}
+		
+	}
+

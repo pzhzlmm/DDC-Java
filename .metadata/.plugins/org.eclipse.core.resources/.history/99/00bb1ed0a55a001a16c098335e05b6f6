@@ -1,0 +1,51 @@
+/**  
+ * @Title:  AnimalTest.java   
+ * @Package com.atguigu.ex5   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 上午11:41:08   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex5;
+
+/**   
+ * @ClassName:  AnimalTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 上午11:41:08   
+ *     
+ */
+public class AnimalTest {
+
+}
+class Animal{
+	public void eat(){
+		System.out.println("动物进食");
+	}
+	public void shout(){
+		System.out.println("动物叫");
+	}
+	
+}
+class Dog extends Animal{
+	public void eat(){
+		System.out.println("狗吃骨头");
+	}
+	public void shout(){
+		System.out.println("汪~汪~汪");
+	}
+	public void protectHome(){
+		System.out.println("狗看门");
+	}
+}
+class Cat extends Animal{
+	public void eat(){
+		System.out.println("猫吃小鱼");
+	}
+	public void shout(){
+		System.out.println("喵喵喵~");
+	}
+	public void catchMonse(){
+		System.out.println("猫爪耗子");
+	}
+}

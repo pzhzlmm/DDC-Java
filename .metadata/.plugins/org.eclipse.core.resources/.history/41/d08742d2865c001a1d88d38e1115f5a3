@@ -1,0 +1,118 @@
+
+package ex6;
+
+import java.util.Scanner;
+
+public class BankTest{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入账户1的密码和最低余额");
+		BankAccount acc1 = new BankAccount(sc.next(),sc.nextInt());
+		BankAccount acc2 = new BankAccount(sc.next(),sc.nextInt());
+		BankAccount acc3 = new BankAccount(sc.next(),sc.nextInt());
+		
+		System.out.println(acc1.toString());
+		System.out.println(acc2.toString());
+		System.out.println(acc3.toString());
+	}
+	
+}
+class BankAccount{
+	private int account;
+	private String password;
+	private int balance;
+	static int count = 10000;
+	final static private float INTEREST = 0.03f;
+	final static private int MINIMUMBALANCE = 1000;
+
+	/**
+	 * 
+	 */
+	public BankAccount() {
+		super();
+		count++;
+	}
+
+	/**
+	 * @param account
+	 * @param password
+	 * @param balance
+	 */
+	public BankAccount(String password, int balance) {
+		this();
+		setAccount(count);
+		this.password = password;
+		this.balance = balance;
+	}
+
+	/**
+	 * @return the account
+	 */
+	public int getAccount() {
+		return account;
+	}
+
+	/**
+	 * @param account the account to set
+	 */
+	private void setAccount(int account) {
+		this.account = account;
+	}
+
+	/**
+	 * @return the password
+	 */
+	public String getPassword() {
+		return password;
+	}
+
+	/**
+	 * @param password the password to set
+	 */
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	/**
+	 * @return the balance
+	 */
+	public int getBalance() {
+		return balance;
+	}
+
+	/**
+	 * @param balance the balance to set
+	 */
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+
+	/**
+	 * @return the interest
+	 */
+	public static float getInterest() {
+		return INTEREST;
+	}
+
+	/**
+	 * @return the minimumbalance
+	 */
+	public static int getMinimumbalance() {
+		return MINIMUMBALANCE;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "BankAccount [account=" + getAccount() + ", password=" + password + ", balance=" + balance + "]";
+	}
+	
+	
+
+}
+
+
+
+

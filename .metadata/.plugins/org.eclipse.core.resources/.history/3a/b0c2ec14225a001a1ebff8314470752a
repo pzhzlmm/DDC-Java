@@ -1,0 +1,20 @@
+/**  
+ * @Title:  Person.java   
+ * @Package com.atguigu.eve.ex4   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 下午7:59:38   
+ * @version V1.0 
+ */ 
+package com.atguigu.eve.ex4;
+
+/**   
+ * @ClassName:  Person   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月28日 下午7:59:38   
+ *     
+ */
+public class Person extends Creature {
+
+}

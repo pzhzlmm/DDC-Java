@@ -1,0 +1,20 @@
+/**  
+ * @Title:  FieldMethodTest.java   
+ * @Package ex1   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月2日 上午9:22:21   
+ * @version V1.0 
+ */ 
+package ex1;
+
+/**   
+ * @ClassName:  FieldMethodTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月2日 上午9:22:21   
+ *     
+ */
+public class FieldMethodTest {
+
+}

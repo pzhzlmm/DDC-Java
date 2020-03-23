@@ -1,0 +1,13 @@
+
+package ex6;
+public class BankTest{
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Bank{
+	
+}
+
+

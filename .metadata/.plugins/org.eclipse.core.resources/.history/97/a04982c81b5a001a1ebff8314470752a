@@ -1,0 +1,20 @@
+/**  
+ * @Title:  TriAngleTest.java   
+ * @Package com.atguigu.eve.ex1   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 下午7:13:58   
+ * @version V1.0 
+ */ 
+package com.atguigu.eve.ex1;
+
+/**   
+ * @ClassName:  TriAngleTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月28日 下午7:13:58   
+ *     
+ */
+public class TriAngleTest {
+
+}

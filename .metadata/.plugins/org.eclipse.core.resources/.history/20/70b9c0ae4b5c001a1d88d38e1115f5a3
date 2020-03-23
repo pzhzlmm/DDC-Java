@@ -1,0 +1,45 @@
+/**  
+ * @Title:  InterviewTest1.java   
+ * @Package ex1   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月2日 上午9:25:09   
+ * @version V1.0 
+ */ 
+package ex1;
+
+/**   
+ * @ClassName:  InterviewTest1   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月2日 上午9:25:09   
+ *     
+ */
+public class InterviewTest1 {
+
+	public static void main(String[] args) {
+		Base base = new Sub();
+		base.add(1, 2, 3); //sub_1
+
+//		Sub s = (Sub)base;
+//		s.add(1,2,3);
+	}
+}
+
+class Base {
+	public void add(int a, int... arr) {
+		System.out.println("base");
+	}
+}
+
+class Sub extends Base {
+
+	public void add(int a, int[] arr) {
+		System.out.println("sub_1");
+	}
+
+//	public void add(int a, int b, int c) {
+//		System.out.println("sub_2");
+//	}
+
+}

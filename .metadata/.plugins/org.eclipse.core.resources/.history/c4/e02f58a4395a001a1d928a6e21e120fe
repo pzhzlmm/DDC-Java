@@ -1,0 +1,20 @@
+/**  
+ * @Title:  Son.java   
+ * @Package com.atguigu   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 下午10:50:13   
+ * @version V1.0 
+ */ 
+package com.atguigu;
+
+/**   
+ * @ClassName:  Son   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月28日 下午10:50:13   
+ *     
+ */
+public class Son {
+
+}

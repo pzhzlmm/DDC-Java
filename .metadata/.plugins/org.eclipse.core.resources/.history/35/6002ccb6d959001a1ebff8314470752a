@@ -1,0 +1,11 @@
+
+public class ex1 {
+	public static void main(String[] args) {
+		System.out.println();
+		System.out.println("hello1");
+		int I1 = 10;
+		I1 = 20;
+		System.out.println("hello");
+		System.out.println("momo");
+	}
+}

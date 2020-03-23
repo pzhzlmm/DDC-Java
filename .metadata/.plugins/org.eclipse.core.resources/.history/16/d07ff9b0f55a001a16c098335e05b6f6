@@ -1,0 +1,20 @@
+/**  
+ * @Title:  MyDate.java   
+ * @Package com.atguigu.ex3   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 下午9:15:02   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex3;
+
+/**   
+ * @ClassName:  MyDate   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 下午9:15:02   
+ *     
+ */
+public class MyDate {
+
+}

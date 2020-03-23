@@ -1,0 +1,20 @@
+/**  
+ * @Title:  BankTest.java   
+ * @Package com.atguigu.eve.ex3   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 下午7:46:43   
+ * @version V1.0 
+ */ 
+package com.atguigu.eve.ex3;
+
+/**   
+ * @ClassName:  BankTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月28日 下午7:46:43   
+ *     
+ */
+public class BankTest {
+
+}

@@ -1,0 +1,20 @@
+/**  
+ * @Title:  ComparableCircle.java   
+ * @Package ex3   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月4日 下午3:17:19   
+ * @version V1.0 
+ */ 
+package ex3;
+
+/**   
+ * @ClassName:  ComparableCircle   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月4日 下午3:17:19   
+ *     
+ */
+public class ComparableCircle {
+
+}

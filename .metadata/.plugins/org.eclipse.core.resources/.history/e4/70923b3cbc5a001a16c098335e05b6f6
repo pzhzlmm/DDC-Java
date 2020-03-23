@@ -1,0 +1,27 @@
+/**  
+ * @Title:  InstanceOfTest.java   
+ * @Package com.atguigu.ex5   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 下午2:22:18   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex5;
+
+/**   
+ * @ClassName:  InstanceOfTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 下午2:22:18   
+ *     
+ */
+public class InstanceOfTest {
+	public static void main(String[] args) {
+//		Person p1 = new Woman();
+//		Man man = (Man)p1;
+//		java.lang.ClassCastException
+		
+		Person p2 = new Person();
+		Man man2 = (Man)p2;
+	}
+}

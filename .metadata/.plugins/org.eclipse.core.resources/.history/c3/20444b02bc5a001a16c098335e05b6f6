@@ -1,0 +1,20 @@
+/**  
+ * @Title:  InstanceOfTest.java   
+ * @Package com.atguigu.ex5   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 下午2:22:18   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex5;
+
+/**   
+ * @ClassName:  InstanceOfTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 下午2:22:18   
+ *     
+ */
+public class InstanceOfTest {
+
+}

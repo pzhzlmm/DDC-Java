@@ -1,0 +1,22 @@
+/**  
+ * @Title:  CompareA.java   
+ * @Package ex2   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月4日 下午2:04:57   
+ * @version V1.0 
+ */ 
+package ex2;
+
+/**   
+ * @ClassName:  CompareA   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月4日 下午2:04:57   
+ *     
+ */
+public interface CompareA {
+	public static void method1(){
+		System.out.println("BEIJING");
+	}
+}

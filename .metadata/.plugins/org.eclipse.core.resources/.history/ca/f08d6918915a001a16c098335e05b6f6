@@ -1,0 +1,28 @@
+/**  
+ * @Title:  Father.java   
+ * @Package com.atguigu   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 下午10:49:57   
+ * @version V1.0 
+ */ 
+package com.atguigu;
+
+/**   
+ * @ClassName:  Father   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月28日 下午10:49:57   
+ *     
+ */
+class Father {
+	public String info = "atguigu";
+
+    public void setInfo(String info) {
+        this.info = info;
+    }
+
+    public String getInfo() {
+        return info;
+    }
+}

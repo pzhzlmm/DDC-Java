@@ -1,0 +1,25 @@
+/**  
+ * @Title:  Son.java   
+ * @Package com.atguigu   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 下午10:50:13   
+ * @version V1.0 
+ */ 
+package com.atguigu;
+
+/**   
+ * @ClassName:  Son   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月28日 下午10:50:13   
+ *     
+ */
+class Son extends Father {
+    private String info = "尚硅谷";
+
+    public void test() {
+        System.out.println(this.getInfo());
+        System.out.println(super.getInfo());
+    }
+}

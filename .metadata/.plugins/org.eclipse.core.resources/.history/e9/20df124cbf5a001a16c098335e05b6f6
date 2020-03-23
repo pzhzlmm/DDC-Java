@@ -1,0 +1,25 @@
+/**  
+ * @Title:  InstanceTest.java   
+ * @Package com.atguigu.ex6   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 下午2:45:46   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex6;
+
+/**   
+ * @ClassName:  InstanceTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 下午2:45:46   
+ *     
+ */
+public class InstanceTest {
+	public static void main(String[] args) {
+		
+	}
+	public void method(Person e){
+		
+	}
+}

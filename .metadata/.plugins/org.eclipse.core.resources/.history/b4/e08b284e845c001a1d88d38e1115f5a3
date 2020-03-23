@@ -1,0 +1,25 @@
+/**  
+ * @Title:  Bank.java   
+ * @Package ex6   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月2日 下午8:42:30   
+ * @version V1.0 
+ */ 
+package ex6;
+
+/**   
+ * @ClassName:  Bank   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月2日 下午8:42:30   
+ *     
+ */
+public class BankTest {
+	private String account;
+	private String password;
+	private int balance;
+	final static private float INTEREST = 0.03f;
+	final static private int MINIMUMBALANCE = 1000;
+	
+}

@@ -1,0 +1,20 @@
+/**  
+ * @Title:  AccountTest.java   
+ * @Package com.atguigu.ex2   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月28日 下午8:27:06   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex2;
+
+/**   
+ * @ClassName:  AccountTest   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月28日 下午8:27:06   
+ *     
+ */
+public class AccountTest {
+
+}

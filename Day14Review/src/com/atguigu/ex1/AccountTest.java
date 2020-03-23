@@ -1,0 +1,21 @@
+package com.atguigu.ex1;
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		
+		Account account1 = new Account("666666", 1000);
+		Account account2 = new Account("system", 3000);
+		Account account3 = new Account("qwerdf", 500);
+		
+		Account.setAnnualInterestRate(0.0123);
+		Account.setMinBalance(250);
+		
+		System.out.println("利率：" + Account.getAnnualInterestRate());
+		System.out.println("最小余额：" + Account.getMinBalance());
+		
+		System.out.println(account1);
+		System.out.println(account2);
+		System.out.println(account3);
+	}
+}

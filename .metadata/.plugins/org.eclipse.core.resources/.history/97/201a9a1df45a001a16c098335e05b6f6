@@ -1,0 +1,37 @@
+/**  
+ * @Title:  GeometricObject.java   
+ * @Package com.atguigu   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 下午9:03:30   
+ * @version V1.0 
+ */ 
+package com.atguigu;
+
+/**   
+ * @ClassName:  GeometricObject   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 下午9:03:30   
+ *     
+ */
+public class GeometricObject {
+	protected String color;
+	protected double weight;
+	/**
+	 * 
+	 */
+	public GeometricObject() {
+		super();
+	}
+	/**
+	 * @param color
+	 * @param weight
+	 */
+	public GeometricObject(String color, double weight) {
+		super();
+		this.color = color;
+		this.weight = weight;
+	}
+	
+}

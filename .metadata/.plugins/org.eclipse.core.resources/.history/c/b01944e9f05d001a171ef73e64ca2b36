@@ -1,0 +1,20 @@
+/**  
+ * @Title:  OuterClass1.java   
+ * @Package ex4   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年3月4日 下午4:19:42   
+ * @version V1.0 
+ */ 
+package ex4;
+
+/**   
+ * @ClassName:  OuterClass1   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年3月4日 下午4:19:42   
+ *     
+ */
+public class OuterClass1 {
+
+}

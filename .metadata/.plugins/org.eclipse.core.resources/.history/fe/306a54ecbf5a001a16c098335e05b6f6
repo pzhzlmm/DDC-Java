@@ -1,0 +1,20 @@
+/**  
+ * @Title:  Circle.java   
+ * @Package com.atguigu.ex7   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 下午2:51:06   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex7;
+
+/**   
+ * @ClassName:  Circle   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 下午2:51:06   
+ *     
+ */
+public class Circle extends GeometricObject {
+
+}

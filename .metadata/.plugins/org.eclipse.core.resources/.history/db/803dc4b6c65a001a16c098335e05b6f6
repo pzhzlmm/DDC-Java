@@ -1,0 +1,57 @@
+/**  
+ * @Title:  GeometricObject.java   
+ * @Package com.atguigu.ex7   
+ * @Description:    TODO  
+ * @author: XinLan Wang   
+ * @date:   2020年2月29日 下午2:50:33   
+ * @version V1.0 
+ */ 
+package com.atguigu.ex7;
+
+/**   
+ * @ClassName:  GeometricObject   
+ * @Description:TODO  
+ * @author: XinLan Wang
+ * @date:   2020年2月29日 下午2:50:33   
+ *     
+ */
+public class GeometricObject {
+	String color;
+	double weight;
+	/**
+	 * @param color
+	 * @param weight
+	 */
+	public GeometricObject(String color, double weight) {
+		super();
+		this.color = color;
+		this.weight = weight;
+	}
+	/**
+	 * @return the color
+	 */
+	public String getColor() {
+		return color;
+	}
+	/**
+	 * @param color the color to set
+	 */
+	public void setColor(String color) {
+		this.color = color;
+	}
+	/**
+	 * @return the weight
+	 */
+	public double getWeight() {
+		return weight;
+	}
+	/**
+	 * @param weight the weight to set
+	 */
+	public void setWeight(double weight) {
+		this.weight = weight;
+	}
+	public double findArea(){
+		return 0.0;
+	}
+}
