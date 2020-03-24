@@ -1,4 +1,4 @@
-package cor.Proxy;
+package cor._1Proxy;
 
 /**
  * version: 1.0
