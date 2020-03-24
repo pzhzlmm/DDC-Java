@@ -1,0 +1,18 @@
+SHOW DATABASES;
+
+USE test;
+
+CREATE DATABASE bigdata0213;
+
+SHOW TABLES;
+
+CREATE TABLE students(
+id INT,
+NAME VARCHAR(15)
+);
+
+INSERT INTO students(id,NAME)
+VALUES(1001,"tom");
+
+SELECT * `temp`
+FROM students;
