@@ -34,4 +34,25 @@ DESC emp1;
 DESC employees;
 
 
+#2.删除操作:delect from...
+SELECT *
+FROM emp1;
 
+#delete from emp1;//这样会全部都删掉
+DELETE FROM emp1
+WHERE id = 2;
+#where后可以接不同的查询条件
+
+DELETE FROM emp1
+WHERE salary < 4000;
+
+#3.修改操作:update....set
+
+UPDATE emp1
+SET salary = 6600
+WHERE id = 1;
+
+UPDATE emp1
+SET salary = 7600,hire_date = '2020-07-03'
+WHERE id = 1;
+#创建表
