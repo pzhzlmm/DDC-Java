@@ -40,6 +40,16 @@ public class JDBCUtils {
         return connection;
     }
 
+    /**
+     * description: close
+     * 关闭连接的操作
+     * version: 1.0
+     * date: 2020/3/28 14:12
+     * author: XinLan Wang
+     *
+     * @param connection
+     * @return void
+     */
     public static void close(Connection connection){
         if (connection != null){
             try {
