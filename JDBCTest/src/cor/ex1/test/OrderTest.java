@@ -39,6 +39,5 @@ public class OrderTest {
         Order query = queryRunner.query(connection, sql, handler, 1);
         System.out.println(query);
         JDBCUtils.close(connection);
-
     }
 }
