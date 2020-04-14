@@ -10,7 +10,7 @@
 
     <!-- 声明属性 -->
     <properties>
-        <spring-version>4.0.0.RELEASE</spring-version>
+        <spring-version>5.2.5.RELEASE</spring-version>
     </properties>
 
     <dependencies>
